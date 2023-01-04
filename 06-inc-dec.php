@@ -14,4 +14,7 @@ $numero2--;
 echo $numero2;
 //En decrementos aplica exactamente las mismas reglas
 
+$numero3 = 40;
+$numero3 += 5; //Suma por la cantidad deseada
+echo $numero3; 
 include 'includes/footer.php';
