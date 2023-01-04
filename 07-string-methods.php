@@ -20,8 +20,7 @@ $mail2 = "Correo@correo.com";
 var_dump($mail1 === $mail2); //Comprobacion que dara falso debido a la mayuscula
 var_dump(strtolower($mail1) === strtolower($mail2)); //Aqui dara true debido a que normaliza ambos a mayusculas
 
-
-
+echo str_replace("Juan", "J", $nombreCliente); //Busca una cadena de texto de una variable y la reemplaza por otra
 
 
 include 'includes/footer.php';
