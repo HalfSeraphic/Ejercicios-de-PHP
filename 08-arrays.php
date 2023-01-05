@@ -19,4 +19,21 @@ echo "<pre>";
 var_dump($carrito);
 echo "</pre>";
 
+//Add elmento al final del arreglo
+array_push($carrito, "Audifonos");
+
+//Ad al inicio
+array_unshift($carrito, "SmartWatch");
+
+echo "<pre>";
+var_dump($carrito);
+echo "</pre>";
+
+
+$clientes = array("Cliente1", "Cliente2", "Cliente3", "Cliente4");
+echo "<pre>";
+var_dump($clientes);
+echo "</pre>";
+
+
 include 'includes/footer.php';
