@@ -19,8 +19,12 @@ $productos = [
 ];
 
 echo "<pre>";
-var_dump($productos);
+var_dump($productos, JSON_UNESCAPED_UNICODE); //Unicode lo convierte en texto general
 
+$json = json_encode($productos);
+$json_array = json_decode();
+var_dump($json); //Convierte arreglo a string de javasecript
+var_dump($json_array);
 echo "</pre>";
 
 
